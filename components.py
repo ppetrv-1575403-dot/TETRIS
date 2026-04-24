@@ -46,7 +46,7 @@ class TetrisBoard:
                     
                     if (board_x < 0 or board_x >= self.width or 
                         board_y >= self.height or 
-                        (board_y >= 0 and board_y < self.height and self.grid[board_y][board_x])):
+                        (0 <= board_y < self.height and self.grid[board_y][board_x])):
                         return True
         return False
     

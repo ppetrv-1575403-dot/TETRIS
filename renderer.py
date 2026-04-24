@@ -1,5 +1,6 @@
 import random
 import pygame
+from typing import Dict
 
 from constants import *
 from game import TetrisGame

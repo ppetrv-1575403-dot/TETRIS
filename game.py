@@ -1,5 +1,6 @@
-import random
 import pygame
+import random
+from typing import Optional
 
 from components import TetrisBoard, TetrisPiece
 from constants import *

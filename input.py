@@ -1,6 +1,10 @@
 from typing import List, Optional
 import pygame
 
+from constants import GameCommand, GameState
+from game import TetrisGame
+from renderer import TetrisRenderer
+
 class TetrisInput:
     """Обработка ввода"""
     
