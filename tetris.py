@@ -1,15 +1,10 @@
 import pygame
-import random
 import sys
-from enum import Enum, auto
-from typing import List, Tuple, Optional, Dict, Any
-from dataclasses import dataclass
-from abc import ABC, abstractmethod
 
-from renderer import TetrisRenderer
-from tetris_input import TetrisInput
 from constants import *
 from game import TetrisGame
+from renderer import TetrisRenderer
+from tetris_input import TetrisInput
 
 # Инициализация Pygame
 pygame.init()

@@ -1,10 +1,5 @@
+from typing import List, Optional
 import pygame
-import random
-import sys
-from enum import Enum, auto
-from typing import List, Tuple, Optional, Dict, Any
-from dataclasses import dataclass
-from abc import ABC, abstractmethod
 
 class TetrisInput:
     """Обработка ввода"""

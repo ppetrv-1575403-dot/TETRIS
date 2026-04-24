@@ -1,11 +1,7 @@
-import pygame
-import random
-import sys
-from enum import Enum, auto
-from typing import List, Tuple, Optional, Dict, Any
-from dataclasses import dataclass
-from abc import ABC, abstractmethod
 import logging
+from dataclasses import dataclass
+from enum import Enum, auto
+from typing import List, Tuple
 
 logger = logging.getLogger(__name__)
 
@@ -14,7 +10,7 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     level=logging.INFO,
     handlers=[
-        logging.FileHandler('teyris_logs.log', encoding='utf-8'),  # Запись в файл
+        logging.FileHandler('tetris_logs.log', encoding='utf-8'),  # Запись в файл
         logging.StreamHandler()  # Вывод в консоль
     ]
 )
